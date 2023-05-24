@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="oPLVDT" name="lookmum" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="wB4YMe" name="lookmum">
+    <GROUP id="{24C6B8D9-DA5E-EE6E-F102-5DEAE9341282}" name="Source">
+      <FILE id="uBBauJ" name="StyleSheet.cpp" compile="1" resource="0" file="Source/StyleSheet.cpp"/>
+      <FILE id="kIvo59" name="StyleSheet.h" compile="0" resource="0" file="Source/StyleSheet.h"/>
+      <FILE id="EsgEKB" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="UevstX" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="tkIzdn" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="lookfeel"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="lookfeel"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Softwares/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Softwares/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
